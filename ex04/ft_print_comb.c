@@ -6,7 +6,7 @@
 /*   By: sluthang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 12:18:57 by sluthang          #+#    #+#             */
-/*   Updated: 2020/06/19 15:36:40 by sluthang         ###   ########.fr       */
+/*   Updated: 2020/06/19 16:50:39 by sluthang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,6 @@
 
 void ft_print_comb(void);
 int ft_putchar(char n);
-
-int main()
-{    
-	 ft_print_comb();
-     return 0;
-}	
 
 int ft_putchar(char n)
 {

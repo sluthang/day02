@@ -1,4 +1,16 @@
- #include <unistd.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_comb2.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sluthang <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/19 16:53:00 by sluthang          #+#    #+#             */
+/*   Updated: 2020/06/19 16:53:31 by sluthang         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
  
   int ft_putchar(char c)
   {
@@ -6,15 +18,9 @@
 	  return 0;
   }
  
-  void ft_print_comb2(void);
+ void ft_print_comb2(void);
  
-  int main()
- 
-  {
-      ft_print_comb2();
-  }
- 
-  void ft_print_comb2(void)
+ void ft_print_comb2(void)
   {
  
       int i;
@@ -53,4 +59,6 @@
          j = i+1;
       }
   ft_putchar('\n');
-  }
+  } 
+
+

@@ -1,14 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sluthang <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/19 16:43:17 by sluthang          #+#    #+#             */
+/*   Updated: 2020/06/19 16:43:34 by sluthang         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include<unistd.h>
 
 int ft_putchar(char n);
 void ft_print_numbers(void);
 
-int main()
-{
-  ft_print_numbers();
-
-  return 0;
-}	
 
 int ft_putchar(char n)
 {

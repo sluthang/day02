@@ -1,16 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sluthang <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/06/19 16:47:17 by sluthang          #+#    #+#             */
+/*   Updated: 2020/06/19 16:49:55 by sluthang         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include<unistd.h>
 
 int ft_putchar(char n);
 void ft_is_negative(int n);
-
-int main()
-{   
-	 int n;
-     n = 6;
-     ft_is_negative(n);
-     return 0;
-}	
-
 
 int ft_putchar(char  n)
 {
@@ -31,4 +34,5 @@ void ft_is_negative(int n)
 	  }	  
 
 	  ft_putchar('\n');
-}	
+}
+
