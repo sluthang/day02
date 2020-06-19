@@ -1,7 +1,7 @@
-#include <unistd.h>
+	#include <unistd.h>
  
- int ft_putchar(char c);
- void ft_putnbr(int nb);
+  int ft_putchar(char c);
+  void ft_putnbr(int nb);
  
   int main()
   {
@@ -26,12 +26,11 @@
           nb = nb * - 1;
       }
  
-      if (nb/10 != 0)
+     if (nb/10 != 0)
       {
-         ft_putnbr(nb/10);
+          ft_putnbr(nb/10);
       }
  
-      c = nb%10 +48;
-      ft_putchar(c);
+     c = nb%10 +48;
+     ft_putchar(c);
   }
-
